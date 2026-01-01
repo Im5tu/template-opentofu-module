@@ -8,7 +8,6 @@ Template repository for creating OpenTofu AWS modules.
 module "example" {
   source = "git::https://github.com/im5tu/opentofu-aws-<name>.git?ref=main"
 
-  # Required variables
   tags = {
     Environment = "production"
   }
@@ -19,7 +18,7 @@ module "example" {
 
 | Name | Version |
 |------|---------|
-| opentofu | >= 1.6 |
+| opentofu | >= 1.9 |
 | aws | ~> 6 |
 
 ## Inputs
