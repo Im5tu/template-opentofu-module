@@ -19,7 +19,7 @@ module "example" {
 
 | Name | Version |
 |------|---------|
-| opentofu/terraform | >= 1.6 |
+| opentofu | >= 1.6 |
 | aws | ~> 6 |
 
 ## Inputs
